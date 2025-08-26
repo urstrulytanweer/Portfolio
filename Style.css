@@ -7,11 +7,12 @@
         }
 
         :root {
-            --primary: #0a0a14;
-            --secondary: #151528;
-            --accent: #7a04eb;
-            --accent-light: #a34cf7;
-            --text: #f5f5f5;
+            --primary: #0d0d18;      /* Almost black */
+            --secondary: #151528;    /* Dark navy */
+            --accent: #3b82f6;       /* Royal purple */
+            --accent-light: #3b82f6; /* Bright blue */
+            --text: #f4f4f9;         /* Soft white */
+                    /* Light gray text */
         }
 
         body {
@@ -259,15 +260,13 @@
         .image-placeholder {
             width: 350px;
             height: 350px;
-            background: var(--secondary);
             border-radius: 50%;
             margin: 0 auto;
             display: flex;
             align-items: center;
             justify-content: center;
             overflow: hidden;
-            border: 5px solid var(--accent);
-            box-shadow: 0 0 50px rgba(122, 4, 235, 0.5);
+            
             transition: transform 0.5s ease;
         }
 
@@ -550,7 +549,7 @@
             width: 100%;
             padding: 12px;
             background: var(--secondary);
-            border: none;
+            border-color: white;
             border-radius: 5px;
             color: var(--text);
         }
